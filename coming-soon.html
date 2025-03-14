@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- dir="rtl"-->
+<head>
+    <!-- Required meta tags  -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+
+    <meta name="application-name" content="smartUIUX">
+    <meta name="apple-mobile-web-app-title" content="smartUIUX">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="white">
+    <link rel="apple-touch-icon" href="assets/img/logo-512.png">
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Smart UIUX - Bootstrap 5 Mobile HTML template - Home Gardening Reminder Vehicle IOT - adminuiux.com</title>
+    <meta name="description" content="Smart Home Gardening Reminder Vehicle IOT App HTML Templates | Bootstrap 5 | UI/UX | Mobile | Admin | Dashboard | Universal App | Build stunning smart IOT Automation apps with our premium templates.">
+    <link rel="icon" type="image/png" href="assets/img/favicon.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --adminuiux-content-font: "Open Sans", serif;
+            --adminuiux-content-font-weight: 400;
+            --adminuiux-title-font: "Poppins", serif;
+            --adminuiux-title-font-weight: 600;
+        }
+    </style>
+<script defer src="assets/js/app.js%3F3628a9c0bb9583fc0e7e"></script><link href="assets/css/app.css%3F3628a9c0bb9583fc0e7e.css" rel="stylesheet"></head>
+
+    <body class="main-bg main-bg-opac roundedui adminuiux-header-standard adminuiux-sidebar-standard adminuiux-mobile-footer-fill-theme theme-teal adminuiux-header-transparent adminuiux-sidebar-fill-theme scrollup" data-theme="theme-teal" data-sidebarfill="adminuiux-sidebar-fill-theme" data-bs-spy="scroll" data-bs-target="#list-example" data-bs-smooth-scroll="true" tabindex="0" data-sidebarlayout="adminuiux-sidebar-standard" data-headerlayout="adminuiux-header-standard"
+        data-headerfill="adminuiux-header-transparent">
+        <!-- Pageloader -->
+<div class="pageloader">
+    <div class="container h-100">
+        <div class="row justify-content-center align-items-center text-center h-100 pb-ios">
+            <div class="col-12 mb-auto pt-4"></div>
+            <div class="col-auto">
+                <img src="assets/img/logo.svg" alt="" class="height-80 mb-3">
+                <p class="h2 mb-0 text-theme-accent-1">AdminUIUX</p>
+                <p class="display-3 text-theme-1 fw-bold mb-4">Smartux</p>
+                <div class="loader3 mb-2 mx-auto"></div>
+            </div>
+            <div class="col-12 mt-auto pb-4">
+                <p class="small text-secondary">Please wait we are preparing awesome things...</p>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="adminuiux-wrap">
+                <main class="adminuiux-content" onclick="contentClick()">
+                    <!-- content -->
+                    <div class="container mt-2 height-dynamic" id="main-content" style="--h-dynamic: calc(100vh - 70px)">
+                        <div class="row h-100 justify-content-center align-items-center">
+                            <div class="col-11 col-sm-8 col-lg-6 col-xxl-5">
+                                <div class="row gx-3 align-items-center mb-4">
+                                    <div class="col-auto">
+                                        <img data-bs-img="light" src="assets/img/logo-light.svg" alt="" class="avatar avatar-40">
+                                        <img data-bs-img="dark" src="assets/img/logo.svg" alt="" class="avatar avatar-40">
+                                    </div>
+                                    <div class="col">
+                                        <h5 class="mb-0">Smart<span>UI</span><span>UX</span></h5>
+                                        <p class="small text-secondary">You deserve relaxation</p>
+                                    </div>
+                                </div>
+                                <h1 class="fw-bold text-theme-1 mb-3">Making life easier than you can think of!</h1>
+                                <div class="card adminuiux-card shadow-sm mb-3 bg-theme-1">
+                                    <div class="card-body">
+                                        <div class="mb-4">
+                                            <p class="">We will be coming soon...</p>
+                                        </div>
+                                        <div class="row gx-3 align-items-center justify-content-center">
+                                            <div class="col col-md-auto">
+                                                <span id="days" class="fw-bold h2"></span><br>
+                                                <small class="opacity-50">Days</small>
+                                            </div>
+                                            <div class="col col-md-auto">
+                                                <span id="hrs" class="fw-bold h2"></span><br>
+                                                <small class="opacity-50">Hours</small>
+                                            </div>
+                                            <div class="col col-md-auto">
+                                                <span id="min" class="fw-bold h2"></span><br>
+                                                <small class="opacity-50">Min</small>
+                                            </div>
+                                            <div class="col col-md-auto">
+                                                <span id="sec" class="fw-bold h2"></span><br>
+                                                <small class="opacity-50">Sec</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <p id="endtimer" class="mt-lg-5"></p>
+
+                                <div class="input-group maxwidth-300 mb-3">
+                                    <input type="text" class="form-control" placeholder="Your email address">
+                                    <button class="btn btn-theme" type="button">Subscribe</button>
+                                </div>
+                                <div class="mb-3">
+                                    <h5 class="mb-1">Subscribe for our newsletter</h5>
+                                    <p class="text-secondary mb-3">You will get an email with steps and verification.</p>
+                                    <a href="smart-dashboard.html" class="btn btn-square btn-link rounded-circle" data-toggle="tooltip" title="Dashboard">
+                                        <i class="bi bi-arrow-left"></i>
+                                    </a>
+                                    <a href="coming-soon.html#" class="btn btn-square btn-link rounded-circle" target="_blank"><i class="bi bi-facebook"></i></a>
+                                    <a href="coming-soon.html#" class="btn btn-square btn-link rounded-circle" target="_blank"><i class="bi bi-twitter"></i></a>
+                                    <a href="coming-soon.html#" class="btn btn-square btn-link rounded-circle" target="_blank"><i class="bi bi-instagram"></i></a>
+                                    <a href="coming-soon.html#" class="btn btn-square btn-link rounded-circle" target="_blank"><i class="bi bi-linkedin"></i></a>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <!-- page footer -->
+            <!-- standard index footer -->
+<footer class="adminuiux-footer mt-auto">
+    <div class="container-fluid text-center">
+        <span class="small">Copyright @2025, <a href="../../../adminuiux.com/index.html" target="_blank">SmartUIUX</a> on Earth ❤️ </span>
+    </div>
+</footer>
+<!-- theming action-->
+<div class="position-fixed bottom-0 end-0 m-3 z-index-5" id="fixedbuttons">
+    <button class="btn btn-square btn-theme shadow rounded-circle" type="button" data-bs-toggle="offcanvas" data-bs-target="#theming"><i class="bi bi-palette"></i></button>
+    <br>
+    <button class="btn btn-theme btn-square shadow mt-2 d-none rounded-circle" id="backtotop"><i class="bi bi-arrow-up"></i></button>
+</div>
+                <!-- theming offcanvas-->
+<div class="offcanvas offcanvas-end shadow border-0 maxwidth-300" tabindex="-1" id="theming" data-bs-scroll="true" data-bs-backdrop="false" aria-labelledby="theminglabel">
+    <div class="offcanvas-header border-bottom">
+        <div>
+            <h5 class="offcanvas-title" id="theminglabel">Personalize</h5>
+            <p class="text-secondary small">Make it more like your own</p>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <h6 class="offcanvas-title">Colors</h6>
+        <p class="text-secondary small mb-4">Change colors of templates</p>
+        <div class="row gx-3 mb-3 theme-select">
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-default">
+                        <i class="bi bi-arrow-clockwise"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-blue">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-blue"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-indigo">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-indigo"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-purple">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-purple"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-pink">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-pink"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-red">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-red"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-orange">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-orange"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-yellow">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-yellow"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-green">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-green"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-teal">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-teal"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-cyan">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-cyan"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-grey">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-grey"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-brown">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-brown"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-chocolate">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-chocolate"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="theme-black">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-dark"></span>
+                </div>
+            </div>
+        </div>
+        <h6 class="offcanvas-title">Backgrounds</h6>
+        <p class="text-secondary small mb-4">Change color for background</p>
+        <div class="row gx-3 mb-3 theme-background">
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-default">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-default"><i class="bi bi-arrow-clockwise"></i></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-white">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-white"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-r-gradient">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-r-gradient"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-gradient-1">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-gradient-1"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-gradient-2">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-gradient-2"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-gradient-3">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-gradient-3"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-gradient-4">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-gradient-4"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-gradient-5">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-gradient-5"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-gradient-6">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-gradient-6"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-gradient-7">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-gradient-7"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-gradient-8">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-gradient-8"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-gradient-9">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-gradient-9"></span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="gradient-box text-center mb-2" data-title="bg-gradient-10">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-gradient-10"></span>
+                </div>
+            </div>
+        </div>
+        <h6 class="offcanvas-title">Sidebar Layout</h6>
+        <p class="text-secondary small mb-4">Change sidebar layout style</p>
+        <div class="row gx-3 mb-3 sidebar-layout">
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="adminuiux-sidebar-standard" data-bs-toggle="tooltip" title="None">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-default">
+                        <i class="bi bi-arrow-clockwise"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="adminuiux-sidebar-iconic" data-bs-toggle="tooltip" title="Iconic">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-default">
+                        <i class="bi bi-bezier h4"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="adminuiux-sidebar-boxed" data-bs-toggle="tooltip" title="Boxed">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-default">
+                        <i class="bi bi-box h5"></i>
+                    </span>
+                </div>
+            </div>
+            <div class="col-auto">
+                <div class="select-box text-center mb-2" data-title="adminuiux-sidebar-boxed adminuiux-sidebar-iconic" data-bs-toggle="tooltip" title="Iconic+Boxed">
+                    <span class="avatar avatar-40 rounded-circle mb-2 bg-default">
+                        <i class="bi bi-bounding-box h5"></i>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mb-3">
+            <a href="smart-personalization.html" class="btn btn-sm btn-outline-theme">More options <i class="bi bi-arrow-right-short"></i></a>
+        </div>
+    </div>
+</div> <!-- Page Level js -->
+                    <script>
+                        "use strict";
+
+                        document.addEventListener("DOMContentLoaded", function () {
+                            var countDownDate = new Date("October 20, 2025 15:37:25").getTime();
+
+                            // Update the count down every 1 second
+                            var x = setInterval(function () {
+
+                                // Get today's date and time
+                                var now = new Date().getTime();
+
+                                // Find the distance between now and the count down date
+                                var distance = countDownDate - now;
+
+                                // Time calculations for days, hours, minutes and seconds
+                                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+                                // Display the result in the element with id="demo"
+                                document.getElementById("days").innerHTML = days;
+                                document.getElementById("hrs").innerHTML = hours
+                                document.getElementById("min").innerHTML = minutes
+                                document.getElementById("sec").innerHTML = seconds
+
+                                // If the count down is finished, write some text
+                                if (distance < 0) {
+                                    clearInterval(x);
+                                    document.getElementById("endtimer").innerHTML = "Our website is a live.";
+                                }
+                            }, 1000);
+
+
+                        })
+                    </script>
+    </body>
+
+</html>
